@@ -1,0 +1,14 @@
+.about{
+    background: rgba(242, 242, 0.34);
+    padding-top: 64px;
+    padding-bottom: 194px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 100px 30% auto;
+    gap: 32px;
+}
+.item {
+    border: 1px solid #000;
+    height: 200px;
+}
