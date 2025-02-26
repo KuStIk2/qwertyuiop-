@@ -3,13 +3,14 @@ body{
         height: 100px;
         background-repeat: repeat;
         /* Убирает плитку под фоткой */
+       
 }
 
 .text {
     font-family: 'Arial', sans-serif; 
     /* Настраивает выбранный шрифт */
     font-size: 40px; 
-    color: #2c3e50; 
+    color: #2e455c; 
     text-transform: uppercase; 
     /* C помощью этого можно сделать бквы заглавными  */
     letter-spacing: 2px; 
@@ -21,7 +22,7 @@ body{
     /* Обрезает фон по границам текста */
     -webkit-text-fill-color: transparent;
      /* делает текст прозрачным  */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2); 
 /*Добавляет тень вокруг текста  */
     background-color: rgb(25, 53, 212);
     text-align: center; 
@@ -62,7 +63,7 @@ h1 {
   color: rgb(34, 18, 122);
   text-shadow:
   /* Тени */
-  0 0 7px #272727,
+  0 0 7px #ecdfdf,
   0 0 10px #00747c,
   0 0 21px #7933bb,
   0 0 42px rgb(0, 0, 0),
@@ -120,4 +121,3 @@ h1 {
     transition: 0.5s;
   }
   
- 
