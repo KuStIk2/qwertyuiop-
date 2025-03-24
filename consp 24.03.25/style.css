@@ -1,0 +1,152 @@
+
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.center {
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: black;
+    display: flex;
+    gap: 32px;
+}
+
+.header_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.header_link:hover {
+    color: orange;
+
+}
+
+.header_link:active {
+color: red;
+}
+
+.header_link:first-child {
+    text-decoration: underline;
+}
+
+
+.header_link:last-child {
+    border-right: 1px solid orange;
+    padding-right: 32px;
+}
+
+
+.header_link:nth-child(2) {
+    background-color: white;
+}
+
+.top {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.title {
+    width: 578px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 113px;
+    color: blue;
+    mix-blend-mode: normal;
+}
+
+
+.button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    border: 1px solid purple;
+    text-align: center;
+    line-height: 40px;
+    color: purple;
+    font-size: 20px;
+}
+
+
+
+
+
+.button:hover {
+    background-color: purple;
+    color: ;
+}
+
+.about {
+    background: #8a8a8a;
+    padding-top: 64px;
+    padding-bottom: 194px;
+
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    color: blanchedalmond;
+    mix-blend-mode: normal;
+}
+
+.about_content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_text {
+    width: 462px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: aquamarine;
+    mix-blend-mode: normal;
+}
+
+.list_item_new:hover::after {
+ content: '  <<';
+}
+
+.icon:hover path{
+    fill: blue;
+
+}
