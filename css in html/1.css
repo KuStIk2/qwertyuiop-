@@ -29,3 +29,23 @@
     font-size: 25px;
     color: plum
 }
+
+.x6 {
+    width: 530px;
+    height: 370px;
+    background-color: #00feff;
+    margin-left: 37%;
+}
+
+.x6x {
+    font-size: 18px;
+}
+
+.x6x::first-letter {
+    margin: 0;
+    color: green;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1;
+    float: left;
+}
