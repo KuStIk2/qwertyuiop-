@@ -9,3 +9,23 @@
 .h1 {
     color: red; text-align: right;
 }
+
+.t5 {
+    background-color: rgb(228, 199, 255);
+    width: 400px;
+    height: 100px;
+    margin-left: 40%;
+}
+.t5c {
+    align-items: center;
+    color: purple;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0.5);
+    font-size: 45px;
+    margin: 0;
+}
+
+.t5x {
+    margin: 0;
+    font-size: 25px;
+    color: plum
+}
