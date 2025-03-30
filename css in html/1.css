@@ -67,3 +67,22 @@
     height: 200px;
     border: 10px solid blue;
 }
+
+.tb {
+    border: 10px solid blue;
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+.q {
+    background-color: yellow; 
+    color: red; 
+    border: 3px red dashed; 
+    padding: 10px;
+}
+
+.qm {
+    background-color: green; 
+    border: 2px solid yellow; 
+    padding: 10px; 
+}
