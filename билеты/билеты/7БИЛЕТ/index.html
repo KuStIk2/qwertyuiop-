@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<H1> Билет 7</H1>
+<p> 1.Кэш-память (кэш, cache) предназначена для временного хранения данных, к которым устройство или программа обращаются часто. Это позволяет ускорить доступ к информации, снизить задержку и нагрузку на основное хранилище. 
+Назначение кэш-памяти
+Сокращение времени доступа к данным. Вместо того чтобы каждый раз обращаться к более медленной оперативной памяти, процессор использует более быстрый кэш.
+Повышение эффективности многозадачности. Современные процессоры работают в многопоточном режиме, и кэш позволяет быстрее переключаться между задачами и обрабатывать их параллельно.
+Оптимизация сложных вычислений. При работе с тяжёлыми задачами (например, 3D-рендерингом, обработкой больших данных) кэш помогает сократить время обработки за счёт минимизации обращений к оперативной памяти.
+Снижение энергопотребления. Обращение к кэшу требует меньше энергии, чем постоянные запросы к оперативной памяти.
+
+Применение кэш-памяти
+В компьютерных системах. Кэш используется в процессорах, графических картах, жёстких дисках, сетевых адаптерах.
+В веб-браузерах. Данные страниц, изображений и скриптов сохраняются в кэше, что позволяет быстро загружать страницы при повторном посещении.
+В операционных системах. Кэш хранит копии данных из памяти или жёсткого диска, чтобы обеспечить быстрый доступ к этой информации.
+В сетевых устройствах. Кэш используется для временного хранения данных о сетевых соединениях и маршрутизации, что оптимизирует работу роутеров.
+ 
+
+Принцип работы кэш-памяти
+Принцип работы кэша основан на локальном сохранении часто используемой или недавно запрошенной информации и её повторном использовании. 
+
+Когда устройство или программа запрашивает данные, сначала проверяется их наличие в кэше. Если данные найдены, происходит кэш-попадание, и процессор сразу получает к ним доступ. Если данные отсутствуют в кэше, происходит кэш-промах, и информация искажается в оперативной памяти, что занимает больше времени.
+Виды кэш-памяти
+Аппаратная. Находится в самом устройстве, например, у процессора, жёсткого диска, графического ускорителя. Загружает данные из оперативной памяти для быстрого доступа.
+Программная. Представляет собой папки на диске, в которых сервисы и программы сохраняют свои данные для быстрого доступа. Размер программного кэша ограничен, и когда свободное место заканчивается, старые данные частично удаляются.</p>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сотрудники фирмы</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        th {
+            font-weight: bold;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Сотрудники фирмы</caption>
+        <tr>
+            <th>№</th>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Отчество</th>
+            <th><em>Дата рождения</em></th>
+            <th>Телефон</th>
+            <th>Должность</th>
+            <th>Стаж</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Иванова</td>
+            <td>Анна</td>
+            <td>Петровна</td>
+            <td>23.12.1963</td>
+            <td>141585</td>
+            <td>менеджер</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Смирнов</td>
+            <td>Иван</td>
+            <td>Сергеевич</td>
+            <td>12.05.1974</td>
+            <td>786596</td>
+            <td>консультант</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Чистяков</td>
+            <td>Виктор</td>
+            <td>Михайлович</td>
+            <td>07.05.1965</td>
+            <td>235643</td>
+            <td>директор</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Кузнецов</td>
+            <td>Сергей</td>
+            <td>Иванович</td>
+            <td>24.12.1963</td>
+            <td>821124</td>
+            <td>программист</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Цветкова</td>
+            <td>Мария</td>
+            <td>Андреевна</td>
+            <td>13.03.1977</td>
+            <td>265347</td>
+            <td>бухгалтер</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Михалкова</td>
+            <td>Елена</td>
+            <td>Дмитриевна</td>
+            <td>31.01.1975</td>
+            <td>435496</td>
+            <td>секретарь</td>
+            <td>4</td>
+        </tr>
+    </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 3 билет 7</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .slide {
+            display: none;
+            padding: 40px;
+            background-color: white;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .slide.active {
+            display: block;
+        }
+        .controls {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="slide active" id="slide1">
+    <h2>Задание 3 билет 7</h2>
+    <p><strong>Выполнил студент группы Исп-216П</strong></p>
+</div>
+
+<div class="slide" id="slide2">
+    <h2>Устройства ввода информации</h2>
+</div>
+
+<div class="slide" id="slide3">
+    <h2>Клавиатура</h2>
+<img src="Рисунок1.png" alt="">
+</div>
+
+<div class="slide" id="slide4">
+    <h2>Мышь</h2>
+    <img src="Рисунок2.png" alt="">
+</div>
+
+<div class="slide" id="slide5">
+    <h2>Сканер</h2>
+    <img src="Рисунок3.png" alt="">
+</div>
+
+<div class="slide" id="slide6">
+    <h2>Микрофон</h2>
+    <img src="Рисунок4.png" alt="">
+</div>
+
+<div class="controls">
+    <button onclick="prevSlide()">Назад</button>
+    <button onclick="nextSlide()">Вперёд</button>
+</div>
+
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.toggle('active', i === index);
+        });
+    }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    function prevSlide() {
+        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+        showSlide(currentSlide);
+    }
+</script>
+</body>
+</html>
+</body>
+</html>
